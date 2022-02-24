@@ -21,7 +21,33 @@ Backend = <span style="color:orange;">48.6%</span>
 Frontend = <span style="color:green;">85.59%</span>
 ### timestream-datasource/
 Backend = <span style="color:orange;">68.4%</span>
-Frontend = <span style="color:red;">7.6%</span>
+Frontend = <span style="color:red;">7.69%</span>
 ### x-ray-datasource/
 Backend = <span style="color:orange;">72%</span>
 Frontend = <span style="color:orange;">69%</span>
+
+## Thu Feb 24 19:58:33 CET 2022
+## Thu Feb 24 20:01:07 CET 2022
+### azuremonitor
+Frontend = <span style="color:orange;">35.23%</span>
+Backend = 57.3%
+### cloudmonitoring
+Frontend = <span style="color:orange;">28%</span>
+Backend = 55.4%
+### cloudwatch
+Frontend = <span style="color:orange;">32.25%</span>
+Backend = 73.9%
+### athena-datasource/
+Backend = 59.6%
+## Thu Feb 24 20:43:33 CET 2022
+### azuremonitor
+Frontend = <span style="color:orange;">35.23%</span>
+Backend = 57.3%
+### cloudmonitoring
+Frontend = <span style="color:orange;">28%</span>
+Backend = 55.4%
+### cloudwatch
+Frontend = <span style="color:orange;">32.25%</span>
+Backend = 73.9%
+### athena-datasource/
+Backend = 59.6%
