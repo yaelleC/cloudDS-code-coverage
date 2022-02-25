@@ -1,8 +1,10 @@
 #!/bin/bash
 set -euxo
+
+PLUGINS=~/Documents/Projects/plugins/
+GRAFANA=~/Documents/Projects/grafana
 COV_FILE=~/Documents/Projects/cloudDS-code-covrage/testcoverage.md
 COV_FILE_TMP=~/Documents/Projects/cloudDS-code-covrage/coverage.txt
-PLUGINS=~/Documents/Projects/plugins/
 
 write_to_cov()
 {
@@ -35,7 +37,7 @@ write_fe_core_coverage()
 write_to_cov "## $(date)" 
 write_to_cov "### Frontend" 
 
-cd ~/Documents/Projects/grafana
+cd "${GRAFANA}"
 # git checkout main
 # git pull
 yarn test:coverage .> "${COV_FILE_TMP}"
@@ -66,8 +68,6 @@ cd ~/Documents/Projects/grafana/pkg/tsdb/azuremonitor/
 cd $PLUGINS;
 for d in */ ; do
     cd $d
-    # git checkout main
-    # git pull
     write_be_coverage $d
     cd $PLUGINS
 done
