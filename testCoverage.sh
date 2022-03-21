@@ -68,7 +68,6 @@ cd ${GRAFANA}/pkg/tsdb/azuremonitor/
 cd $PLUGINS;
 for d in */ ; do
     cd $d
-    cd pkg
     write_be_coverage $d
     cd $PLUGINS
 done
