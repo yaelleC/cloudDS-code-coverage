@@ -57,11 +57,11 @@ done
 
 write_to_cov "### Backend" 
 
-cd ~/Documents/Projects/grafana/pkg/tsdb/cloudwatch/
+cd ${GRAFANA}/pkg/tsdb/cloudwatch/
     write_be_coverage 'CloudWatch'
-cd ~/Documents/Projects/grafana/pkg/tsdb/cloudmonitoring/
+cd ${GRAFANA}/pkg/tsdb/cloudmonitoring/
     write_be_coverage 'Cloud Monitoring'  
-cd ~/Documents/Projects/grafana/pkg/tsdb/azuremonitor/
+cd ${GRAFANA}/pkg/tsdb/azuremonitor/
     write_be_coverage 'Azure Monitor' 
 
 
